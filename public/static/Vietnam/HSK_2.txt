@@ -1,0 +1,172 @@
+新版HSK考试大纲 · 语法 — HSK 2
+========================================
+1. Hình vị (语素)
+  1.1 Hậu tố (后缀)
+    - 面 (mặt, phía — hậu tố phương vị)
+
+2. Từ loại (词类)
+  2.1 Danh từ (名词)
+    2.1.1 Danh từ chỉ phương vị (方位名词)
+      - 左 (trái) 、右 (phải)
+  2.2 Động từ (动词)
+    2.2.1 Động từ trùng điệp (动词重叠)
+      - AA、A一A、A了A、ABAB (các dạng láy động từ, biểu thị hành động ngắn/nhẹ)
+    2.2.2 Động từ năng nguyện (能愿动词)
+      - 可能 (có thể, có lẽ)
+    2.2.3 Từ ly hợp (离合词)
+      - 帮忙 (giúp đỡ) 、游泳 (bơi) 、跳舞 (nhảy múa) 、跑步 (chạy bộ)
+  2.3 Đại từ (代词)
+    2.3.1 Đại từ nghi vấn (疑问代词)
+      - 为什么 (tại sao)
+    2.3.2 Đại từ nhân xưng (人称代词)
+      - 自己 (bản thân, tự mình)
+    2.3.3 Đại từ chỉ thị (指示代词)
+      - 那么 (như vậy, vậy thì) 、那样 (như thế) 、这么 (thế này) 、这样 (như thế này) 、每 (mỗi)
+  2.4 Tính từ (形容词)
+    2.4.1 Tính từ trùng điệp (形容词重叠)
+      - AA、AABB (các dạng láy tính từ, tăng sắc thái miêu tả)
+  2.5 Số từ (数词)
+    - 万 (vạn — 10.000) 、好多 (nhiều, khá nhiều) 、多 (nhiều)
+  2.6 Lượng từ (量词)
+    2.6.1 Danh lượng từ (名量词)
+      - （1）Chuyên dụng：条 (dải, con — vật dài) 、位 (vị — người, lịch sự) 、间 (gian — phòng) 、名 (người — chức danh/thứ hạng)
+      - （2）Mượn：包 (gói)
+    2.6.2 Động lượng từ (动量词)
+      - 次 (lần)
+  2.7 Phó từ (副词)
+    2.7.1 Mức độ (程度副词)
+      - 多 (bao nhiêu, rất) 、好 (khá, rất) 、最 (nhất)
+    2.7.2 Phạm vi (范围副词)
+      - 一起 (cùng nhau)
+    2.7.3 Thời gian (时间副词)
+      - 还2 (vẫn còn) 、已经 (đã) 、有时（候） (thỉnh thoảng) 、快 (sắp, nhanh) 、快要 (sắp) 、正 (đang)
+    2.7.4 Tần suất (频率副词)
+      - 常 (thường) 、经常 (thường xuyên)
+    2.7.5 Phủ định (否定副词)
+      - 别 (đừng)
+    2.7.6 Liên kết (关联副词)
+      - 再2 (rồi mới, sau đó) 、就1 (thì, liền)
+    2.7.7 Ngữ khí (语气副词)
+      - 都2 (đều, cả) 、就2 (chính là) 、还是1 (hay là, vẫn là)
+  2.8 Giới từ (介词)
+    2.8.1 Dẫn ra thời gian, nơi chốn
+      - 从1 (từ)
+    2.8.2 Dẫn ra phương hướng, lộ trình
+      - 往 (hướng về, đi về)
+      - 从2 (từ)
+    2.8.3 Dẫn ra đối tượng
+      - 给 (cho)
+      - 比 (so với)
+      - 跟1 (với, cùng)
+    2.8.4 Dẫn ra nguyên nhân
+      - 因为1 (vì, bởi vì)
+  2.9 Liên từ (连词)
+    2.9.1 Nối từ hoặc cụm từ
+      - 跟2 (và, cùng)
+    2.9.2 Nối phân câu hoặc câu
+      - 但 (nhưng) 、但是 (nhưng mà) 、那 (vậy thì) 、虽然 (mặc dù) 、还是2 (vẫn là) 、因为2 (vì) 、所以 (cho nên)
+  2.10 Trợ từ (助词)
+    2.10.1 Kết cấu (结构助词)
+      - 得 (trợ từ dẫn bổ ngữ mức độ) 、地 (trợ từ dẫn trạng ngữ)
+    2.10.2 Động thái (动态助词)
+      - 过 (đã từng — kinh nghiệm)
+      - 着 (đang, ở trạng thái — tiếp diễn)
+    2.10.3 Ngữ khí (语气助词)
+      - 呢4 (nhỉ) 、吧2 (nhé, chắc là) 、的2 (trợ từ ngữ khí khẳng định) 、啊1 (a, nhỉ — cảm thán)
+
+3. Cụm từ (短语)
+  3.1 Kết cấu (结构类型)
+    3.1.1 Cơ bản (基本结构类型)
+      - Cụm động-bổ 1 (动补短语1)
+    3.1.2 Khác (其他结构类型)
+      - （1）Cụm chữ "的"
+      - （2）Cụm liên vị
+      - （3）Cụm kiêm ngữ
+  3.2 Chức năng (功能类型)
+    3.2.1 Cụm danh từ tính (名词性短语)
+      -
+    3.2.2 Cụm động từ tính (动词性短语)
+      -
+    3.2.3 Cụm tính từ tính (形容词性短语)
+      -
+  3.3 Cụm cố định (固定短语)
+    3.3.1 Khác (其他)
+      - 什么的 (những thứ như vậy, vân vân)
+
+4. Cấu trúc cố định (固定格式)
+  4.1
+    - 还是……吧 (hay là... đi)
+    - 要/快要/就要……了 (sắp... rồi)
+    - 都……了 (đã... rồi)
+
+5. Thành phần câu (句子成分)
+  5.1 Chủ ngữ (主语)
+    - Chủ ngữ chịu tác động (受事主语)
+  5.2 Vị ngữ (谓语)
+    - Cụm danh từ làm vị ngữ
+  5.3 Định ngữ (定语)
+    - Động từ/cụm động từ, cụm chủ-vị làm định ngữ
+  5.4 Bổ ngữ (补语)
+    5.4.1 Bổ ngữ kết quả 1 (结果补语1)
+      - Động từ+错 (sai) /懂 (hiểu) /好 (xong, tốt) /会 (được, biết) /完 (xong)
+    5.4.2 Bổ ngữ xu hướng 1 (趋向补语1)
+      - Đơn giản：（1）động từ+来 (lại, đến) /去 (đi)
+      - （2）động từ+上 (lên) /下 (xuống) /进 (vào) /出 (ra) /过 (qua) /回 (về)
+      - Phức hợp：động từ+出来/出去/过来/过去/回来/回去/进来/进去/起来/上来/上去/下来/下去 (các bổ ngữ xu hướng kép, kết hợp hướng + đến/đi)
+    5.4.3 Bổ ngữ trạng thái 1 (状态补语1)
+      - Động từ+得+cụm tính từ
+    5.4.4 Bổ ngữ số lượng 2 (数量补语2)
+      - （1）Biểu thị thời gian kéo dài của động tác
+      - （2）Tính từ+bổ ngữ số lượng
+
+6. Các loại câu (句子的类型)
+  6.1 Câu hình (句型)
+    6.1.1 Câu đơn (单句)
+      - Câu chủ-vị 4：câu vị ngữ chủ-vị
+  6.2 Loại câu (句类)
+    6.2.1 Câu nghi vấn (疑问句)
+      - Câu hỏi lựa chọn dùng "还是" (hay là) nối
+    6.2.2 Câu cầu khiến (祈使句)
+      - Câu cầu khiến dùng "别" (đừng)
+  6.3 Câu đặc biệt (特殊句式)
+    6.3.1 Câu chữ "是" 2 ("是"字句2)
+      - Biểu thị giải thích hoặc đặc điểm
+    6.3.2 Câu chữ "有" 2 ("有"字句2)
+      - Biểu thị đạt tới
+    6.3.3 Câu tồn hiện 2 (存现句2)
+      - Nơi chốn+động từ+着(+cụm số lượng)+danh từ
+    6.3.4 Câu so sánh 1 (比较句1)
+      - （1）A比B+tính từ
+      - （2）A比B+tính từ+bổ ngữ số lượng/mức độ
+      - （3）A有/没有B（+这么/那么）+tính từ
+      - （4）A比B+động từ+得+tính từ/A+动词+得+比+B+tính từ
+    6.3.5 Câu "是……的" 1 ("是……的"句1)
+      - Nhấn mạnh thời gian, địa điểm, phương thức, người thực hiện
+    6.3.6 Câu kiêm ngữ 1 (兼语句1)
+      - Biểu thị sai khiến：chủ ngữ+请 (mời) /叫 (bảo) /让 (cho phép, khiến) ……+tân ngữ1+động từ+tân ngữ2
+    6.3.7 Câu song tân ngữ 2 (双宾语句2)
+      - Chủ ngữ+động từ+给+tân ngữ1+tân ngữ2
+  6.4 Câu phức (复句)
+    6.4.1 Lựa chọn (选择复句)
+      - （是）……，还是…… (là... hay là...)
+    6.4.2 Chuyển ý (转折复句)
+      - 虽然……，但是…… (mặc dù... nhưng...)
+    6.4.3 Nhân quả (因果复句)
+      - 因为……，所以…… (vì... nên...)
+    6.4.4 Rút gọn (紧缩复句)
+      - 一……就…… (vừa... đã...)
+
+7. Thái của động tác (动作的态)
+  7.1
+    7.1.1 Thể tiếp diễn/duy trì (持续态)
+      - Động từ+着：（1）biểu thị trạng thái tiếp diễn
+      - （2）biểu thị động tác tiếp diễn
+    7.1.2 Thể kinh nghiệm (经历态)
+      - Dùng trợ từ động thái "过" (đã từng) để biểu thị
+
+8. Cách diễn đạt đặc biệt (特殊表达法)
+  8.1 Cách biểu thị số (数的表达法)
+    - Cách biểu thị số thứ tự 2：số từ+lượng từ
+    - Cách biểu thị số ước lượng 1：（1）dùng "几" (mấy) biểu thị số ước lượng
+    - （2）số từ+多 (hơn) +lượng từ
+    - （3）số từ+lượng từ+多 (hơn)

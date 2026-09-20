@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+tsconfig.build.tsbuildinfo
+
+# SQLite cục bộ (tự seed, hoặc nạp từ db/app.sql)
+data/
+
+# Test & coverage
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Môi trường
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Command Code (taste/session)
+.commandcode/
+public/static/HSK*/
+test

@@ -1,0 +1,15 @@
+node_modules
+dist
+data
+coverage
+test
+.commandcode
+.vscode
+.git
+.gitignore
+*.log
+tsconfig.build.tsbuildinfo
+README.md
+Dockerfile
+docker-compose.yml
+.dockerignore

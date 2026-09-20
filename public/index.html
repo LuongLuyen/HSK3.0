@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Học Chữ Hán — HSK 3.0 · 214 Bộ Thủ · NestJS</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.7/dist/hanzi-writer.min.js"></script>
+</head>
+<body>
+  <div class="topbar">
+    <button class="nav-toggle" id="navToggle" aria-label="Mở menu">☰</button>
+    <span class="topbar-brand">🖌️ Học Chữ Hán</span>
+  </div>
+
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#top">🖌️ Học Chữ Hán</a>
+    <div class="auth-box">
+      <div id="authLogin">
+        <input id="authUser" type="text" maxlength="24" placeholder="Tên đăng nhập" autocomplete="username" />
+        <input id="authPass" type="password" placeholder="Mật khẩu" autocomplete="current-password" />
+        <div class="auth-btns">
+          <button id="btnLogin">Đăng nhập</button>
+          <button id="btnRegister">Tạo tài khoản</button>
+        </div>
+        <div id="authMsg" class="auth-msg"></div>
+      </div>
+      <div id="authUserBox" style="display:none">
+        <span>👤 <b id="authName"></b></span>
+        <button id="btnLogout">Thoát</button>
+      </div>
+    </div>
+    <div class="nav-group">
+      <div class="nav-title">Tổng quan</div>
+      <a href="#dashboard" data-view="dashboard">📊 Dashboard HSK 3.0</a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-title">Khóa học</div>
+      <a href="#khoa-hoc" data-view="khoa-hoc">🎬 Video bài giảng</a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-title">Phát âm</div>
+      <a href="#phat-am" data-view="phat-am" data-sub="thanh-mau">21 thanh mẫu</a>
+      <a href="#phat-am" data-view="phat-am" data-sub="van-mau">36 vận mẫu</a>
+      <a href="#phat-am" data-view="phat-am" data-sub="thanh-dieu">4 thanh điệu</a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-title">Luyện viết</div>
+      <a href="#luyen-viet" data-view="luyen-viet">✍️ Tập viết chữ</a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-title">Bộ thủ</div>
+      <a href="#bo-thu" data-view="bo-thu" data-radview="common">⭐ 50 bộ thông dụng</a>
+      <a href="#bo-thu" data-view="bo-thu" data-radview="all">📖 Tất cả 214 bộ</a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-title">Bài tập</div>
+      <a href="#luyen-bo-thu" data-view="luyen-bo-thu">📝 Viết 50 bộ thủ</a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-title">Ngữ pháp</div>
+      <a href="#ngu-phap" data-view="ngu-phap">📘 Ngữ pháp HSK 3.0</a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-title">Từ vựng HSK 3.0</div>
+      <a href="#tu-vung" data-view="tu-vung" data-hsk="1">HSK 1 <span class="pill">302</span></a>
+      <a href="#tu-vung" data-view="tu-vung" data-hsk="2">HSK 2 <span class="pill">200</span></a>
+      <a href="#tu-vung" data-view="tu-vung" data-hsk="3">HSK 3 <span class="pill">491</span></a>
+      <a href="#tu-vung" data-view="tu-vung" data-hsk="4">HSK 4 <span class="pill">985</span></a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-title">Khác</div>
+      <a href="#api" data-view="api">🔌 API</a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-title">Tài khoản</div>
+      <a href="#account" data-view="account">👤 Tài khoản của tôi</a>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <header id="top">
+    <h1>🖌️ Học Chữ Hán</h1>
+  </header>
+
+  <main>
+    <section class="panel view" data-view="dashboard" id="dashboard">
+      <h2>📊 Dashboard — HSK 2.0 vs 3.0</h2>
+      <p class="muted">HSK 3.0 bám chuẩn <b>《国际中文教育中文水平等级标准》</b>: 3 bậc – 9 cấp, đánh giá năng lực giao tiếp theo nhiệm vụ.</p>
+      <div id="guideStats" class="stat-grid"></div>
+      <h3>3 bậc trình độ</h3>
+      <div id="guideBands" class="band-grid"></div>
+      <h3>5 đại cương (大纲)</h3>
+      <div id="guideOutlines" class="tag-row"></div>
+      <h3>Từ vựng từng cấp: HSK 2.0 vs 3.0 vs Chuẩn <small>(tăng mới / tổng)</small></h3>
+      <div class="table-wrap"><table class="data-table" id="guideVocabTable">
+        <thead><tr><th>Cấp</th><th>HSK 2.0</th><th>HSK 3.0</th><th>Chuẩn</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+      <h3>Kỹ năng kiểm tra</h3>
+      <div id="guideSkills" class="skill-list"></div>
+      <h3>Lưu ý quan trọng</h3>
+      <ul id="guideInsights" class="info"></ul>
+      <h3>Lộ trình HSK3 (gợi ý)</h3>
+      <div id="guideRoadmap" class="roadmap"></div>
+    </section>
+
+    <section class="panel view" data-view="khoa-hoc" id="khoa-hoc">
+      <h2>🎬 Khóa học — Video bài giảng <small>(xem video + ghi chú từng bài)</small></h2>
+      <p class="muted">Danh sách bài lấy từ <code>public/static/HSK1, HSK2…</code> — thả thêm file <code>.mp4</code> vào là có bài mới. Mỗi bài có ô ghi chú riêng, tự động lưu khi chuyển bài.</p>
+      <div class="tabs" id="courseTabs" role="tablist"></div>
+      <div class="course-main">
+        <div class="course-left">
+          <div class="course-stage">
+            <video id="courseVideo" controls playsinline preload="metadata" hidden></video>
+            <div id="courseEmpty" class="course-empty">Chọn một bài giảng để bắt đầu.</div>
+          </div>
+          <div class="course-meta">
+            <div>
+              <h3 id="courseTitle">—</h3>
+              <div id="courseSub" class="muted"></div>
+            </div>
+            <div class="course-nav">
+              <button id="btnPrevLesson">⏮ Bài trước</button>
+              <button id="btnNextLesson">Bài sau ⏭</button>
+            </div>
+          </div>
+          <div class="note-box">
+            <div class="note-head">
+              <h3>📝 Ghi chú bài giảng</h3>
+              <span id="noteWho" class="note-who"></span>
+            </div>
+            <textarea id="noteBody" rows="8" placeholder="Ghi lại từ mới, ngữ pháp, điều cần nhớ sau bài giảng…"></textarea>
+            <div class="hand-row">
+              <button id="btnNoteHandSearch" title="Vẽ một chữ Hán để chèn vào ghi chú">✍️ Vẽ chữ để chèn</button>
+              <button id="noteHandClear" class="hand-btn" title="Xóa nét đã vẽ">🗑️ Xóa</button>
+              <button id="noteHandRecognize" class="hand-btn primary" title="Nhận dạng nét vẽ">🔍 Nhận dạng</button>
+            </div>
+            <div id="noteHandPanel" class="hand-panel">
+              <p class="muted">Vẽ một chữ Hán (càng to, rõ nét càng dễ khớp) vào ô dưới rồi bấm <b>🔍 Nhận dạng</b> — bấm vào kết quả để chèn chữ đó vào ghi chú.</p>
+              <canvas id="noteHandCanvas" width="320" height="320"></canvas>
+              <div id="noteHandResults" class="hand-results"></div>
+            </div>
+            <div class="note-actions">
+              <button id="btnSaveNote" class="note-save">💾 Lưu ghi chú</button>
+              <button id="btnDeleteNote" class="note-del">🗑️ Xóa ghi chú</button>
+              <span id="noteStatus" class="note-status"></span>
+            </div>
+          </div>
+        </div>
+        <aside class="course-right">
+          <div class="course-list-title">📚 Danh sách bài</div>
+          <div id="courseList" class="course-list"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="panel view" data-view="luyen-bo-thu" id="luyen-bo-thu">
+      <h2>📝 Luyện viết 50 bộ thủ <small>(viết xong tự nhảy chữ + chấm điểm)</small></h2>
+      <p class="muted">Viết đúng 1 bộ sẽ tự chuyển sang bộ tiếp theo. Mỗi bộ 10 điểm, trừ 2 điểm mỗi lần viết sai (tối thiểu 0). Tối đa 500 điểm.</p>
+      <div class="search-row">
+        <label for="drillMode"><b>Mức độ:</b></label>
+        <select id="drillMode" title="Chọn mức độ">
+          <option value="easy">⭐ Dễ — tô theo chữ mẫu</option>
+          <option value="hard">🏆 Khó — tự viết, không mẫu</option>
+        </select>
+      </div>
+      <div class="drill-top">
+        <div id="drillInfo" class="drill-info">Bấm “Bắt đầu” để luyện từ bộ số 1.</div>
+        <div id="drillScore" class="score"></div>
+      </div>
+      <div class="progress-bar"><div id="drillBar"></div></div>
+      <div class="drill-main">
+        <div class="drill-left">
+          <div id="drillWrap" class="drill-wrap">
+            <div id="drillBox" class="char-box with-grid"></div>
+          </div>
+          <div id="drillCaption" class="drill-caption"></div>
+          <div class="controls">
+            <button id="btnDrillStart">▶ Bắt đầu</button>
+            <button id="btnDrillSpeak">🔊 Đọc bộ này</button>
+            <button id="btnDrillHint">💡 Xem mẫu</button>
+            <button id="btnDrillSkip">⏭ Bỏ qua</button>
+            <button id="btnDrillRestart">↺ Làm lại</button>
+          </div>
+          <div id="drillStatus" class="status">Nhìn chữ mẫu phía trên rồi viết vào ô dưới theo đúng thứ tự nét.</div>
+        </div>
+        <div class="drill-right">
+          <div class="drill-log-title">🔢 Nhảy tới bộ</div>
+          <div id="drillJump" class="drill-jump"></div>
+          <div class="drill-log-title">📋 Kết quả từng bộ</div>
+          <div id="drillLog" class="drill-log"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel view" data-view="account" id="account">
+      <h2>👤 Tài khoản</h2>
+      <div id="accountInfo" class="status">Chưa đăng nhập — hãy đăng nhập ở sidebar để lưu tiến độ riêng.</div>
+      <h3>Đổi mật khẩu</h3>
+      <div class="form-col">
+        <input id="pwOld" type="password" placeholder="Mật khẩu hiện tại" autocomplete="current-password" />
+        <input id="pwNew" type="password" placeholder="Mật khẩu mới (≥4 ký tự)" autocomplete="new-password" />
+        <input id="pwNew2" type="password" placeholder="Nhập lại mật khẩu mới" autocomplete="new-password" />
+        <div><button id="btnChangePw">Đổi mật khẩu</button></div>
+        <div id="pwMsg" class="auth-msg"></div>
+      </div>
+      <h3>Tiến độ luyện tập</h3>
+      <p class="muted">Các chữ/từ bạn đã viết, kèm số lần viết đúng và sai các nét.</p>
+      <div id="accountProgress" class="account-progress"></div>
+      <p class="muted">Xóa toàn bộ tiến độ của tài khoản hiện tại (không thể hoàn tác).</p>
+      <div><button id="btnResetProgress" class="danger-btn">⚠️ Xóa toàn bộ tiến độ luyện tập</button></div>
+    </section>
+
+    <section class="panel control-panel view" data-view="luyen-viet" id="luyen-viet">
+      <h2>✍️ Luyện viết</h2>
+      <label for="charInput">Nhập chữ Hán (1–8 chữ):</label>
+      <div class="input-row">
+        <input id="charInput" type="text" value="你好" maxlength="12" placeholder="VD: 汉语 学习 中国" />
+        <button id="btnRender">Học ✏️</button>
+      </div>
+
+      <div class="sample-row">
+        <span>Chữ mẫu:</span>
+        <div id="samples"></div>
+      </div>
+
+      <div class="controls">
+        <button id="btnSpeak">🔊 Đọc chữ</button>
+        <button id="btnAnimate">▶ Xem thứ tự nét</button>
+        <button id="btnStep">👆 Từng nét</button>
+        <button id="btnQuiz">✍️ Luyện viết</button>
+        <button id="btnHint">💡 Gợi ý</button>
+        <button id="btnShow">👁 Hiện chữ</button>
+      </div>
+
+      <div class="options">
+        <label>Tốc độ: <input id="optSpeed" type="range" min="0.5" max="3" step="0.25" value="1" /> <span id="speedVal">1x</span></label>
+        <label><input id="optGrid" type="checkbox" checked /> Hiện ô mễ (米字格)</label>
+        <label><input id="optPinyin" type="checkbox" checked /> Hiện pinyin + nghĩa Việt</label>
+      </div>
+
+      <div id="status" class="status">Nhập chữ rồi bấm “Học”. Bấm “Luyện viết” rồi dùng chuột / ngón tay viết theo thứ tự nét.</div>
+      <div id="score" class="score"></div>
+      <div id="progress" class="progress"></div>
+    </section>
+
+    <section class="panel view" data-view="luyen-viet">
+      <h2 id="currentWord">你好</h2>
+      <div id="writers" class="writers"></div>
+    </section>
+
+    <section class="panel view" data-view="bo-thu" id="bo-thu">
+      <h2>⺮ Bộ thủ</h2>
+      <div class="tabs" id="radTabs" role="tablist">
+        <button data-radview="common" class="active">⭐ 50 bộ thông dụng</button>
+        <button data-radview="all">📖 Tất cả 214 bộ</button>
+      </div>
+      <div class="search-row">
+        <input id="radSearch" type="text" placeholder="Tìm bộ thủ: tay, thủy, kou, ren… (gõ TV không dấu cũng được)" />
+        <select id="radStrokes" title="Lọc theo số nét">
+          <option value="">Mọi số nét</option>
+        </select>
+      </div>
+      <div class="hand-row"><button id="btnRadHandSearch" title="Vẽ một chữ để tìm bộ thủ giống nét chữ đó">✍️ Vẽ chữ để tìm</button>
+        <button id="radHandClear" class="hand-btn" title="Xóa nét đã vẽ">🗑️ Xóa</button>
+        <button id="radHandRecognize" class="hand-btn primary" title="Nhận dạng nét vẽ">🔍 Nhận dạng</button>
+      </div>
+      <div id="radHandPanel" class="hand-panel">
+        <p class="muted">Vẽ một chữ Hán (càng to, rõ nét càng dễ khớp) vào ô bên dưới, rồi bấm <b>🔍 Nhận dạng</b> — hệ thống sẽ tìm bộ thủ có cấu trúc nét gần giống.</p>
+        <canvas id="radHandCanvas" width="320" height="320"></canvas>
+        <div id="radHandResults" class="hand-results"></div>
+      </div>
+      <div id="radCount" class="muted"></div>
+      <div id="radicals" class="radicals"></div>
+    </section>
+
+    <section class="panel view" data-view="tu-vung" id="tu-vung">
+      <h2>📚 Từ vựng HSK 1–4 <small>(1978 từ · HSK Atlas)</small></h2>
+      <p class="muted">Bấm vào thẻ để học. Mỗi từ có mã riêng (VD: HSK1-001). Nghĩa Việt đang bổ sung dần — từ chưa có nghĩa Việt sẽ hiện nghĩa Anh kèm nhãn <i>EN</i>.</p>
+      <div class="tabs" id="hskTabs" role="tablist">
+        <button data-level="1" class="active">HSK 1 <span class="pill">302</span></button>
+        <button data-level="2">HSK 2 <span class="pill">200</span></button>
+        <button data-level="3">HSK 3 <span class="pill">491</span></button>
+        <button data-level="4">HSK 4 <span class="pill">985</span></button>
+      </div>
+      <div class="search-row">
+        <input id="vocabSearch" type="text" placeholder="Tìm trong cấp độ này: xin chào, hello, nihao, 你好…" />
+      </div>
+      <div class="hand-row"><button id="btnHandSearch" title="Vẽ một chữ để tìm từ chứa chữ đó">✍️ Vẽ chữ để tìm</button>
+        <button id="handClear" class="hand-btn" title="Xóa nét đã vẽ">🗑️ Xóa</button>
+        <button id="handRecognize" class="hand-btn primary" title="Nhận dạng nét vẽ">🔍 Nhận dạng</button>
+      </div>
+      <div id="handPanel" class="hand-panel">
+        <p class="muted">Vẽ một chữ Hán (càng to, rõ nét càng dễ khớp) vào ô bên dưới, rồi bấm <b>🔍 Nhận dạng</b>.</p>
+        <canvas id="handCanvas" width="320" height="320"></canvas>
+        <div id="handResults" class="hand-results"></div>
+      </div>
+      <div id="vocabCount" class="muted"></div>
+      <div id="vocab" class="vocab"></div>
+      <div class="more-row"><button id="btnMoreVocab">Xem thêm ⬇</button></div>
+    </section>
+
+    <section class="panel view" data-view="phat-am" id="phat-am">
+      <h2>🗣️ Phát âm pinyin</h2>
+      <p class="muted">Mỗi âm tiết = <b>thanh mẫu</b> + <b>vận mẫu</b> + <b>thanh điệu</b>. Nút 🔊 ở mỗi âm là <b>đọc chính âm đó</b> — vận mẫu có file đọc mẫu thật, các âm còn lại dùng giọng máy.</p>
+      <div class="tabs" id="pronTabs" role="tablist">
+        <button data-sub="thanh-mau" class="active">21 thanh mẫu</button>
+        <button data-sub="van-mau">36 vận mẫu</button>
+        <button data-sub="thanh-dieu">4 thanh điệu</button>
+      </div>
+      <div class="subview" data-sub="thanh-mau">
+        <h3>21 thanh mẫu (声母) <small>+ y, w bán nguyên âm</small></h3>
+        <div id="initials" class="py-grid"></div>
+      </div>
+      <div class="subview" data-sub="van-mau">
+        <h3>36 vận mẫu (韵母)</h3>
+      <div class="tabs" id="finalTabs" role="tablist">
+        <button data-fgroup="all" class="active">Tất cả</button>
+        <button data-fgroup="mở miệng">Mở miệng</button>
+        <button data-fgroup="đều răng">Đều răng</button>
+        <button data-fgroup="ngậm miệng">Ngậm miệng</button>
+        <button data-fgroup="chụm miệng">Chụm miệng</button>
+        <button data-fgroup="đặc biệt">Đặc biệt</button>
+      </div>
+        <div id="finals" class="py-grid"></div>
+      </div>
+      <div class="subview" data-sub="thanh-dieu">
+        <h3>4 thanh điệu (声调) + khinh thanh</h3>
+        <div id="tones" class="tones"></div>
+      </div>
+    </section>
+
+    <section class="panel view" data-view="ngu-phap" id="ngu-phap">
+      <h2>📘 Ngữ pháp HSK 3.0 <small>(chuẩn 《新版HSK考试大纲》 · bản 2025)</small></h2>
+      <div class="tabs gram-pages" id="gramPages" role="tablist">
+        <button data-gram-page="points" class="active">📘 Điểm ngữ pháp</button>
+        <button data-gram-page="docs">📄 Tài liệu tiếng Việt</button>
+      </div>
+      <div class="gram-page" data-gram-page="points">
+        <div class="tabs" id="gramTabs" role="tablist"></div>
+        <div class="search-row">
+          <input id="gramSearch" type="text" placeholder="Tìm điểm ngữ pháp: 把, 被, 因为...所以, bổ ngữ, lượng từ…" />
+        </div>
+        <div id="gramCount" class="muted"></div>
+        <div id="grammar" class="grammar"></div>
+      </div>
+      <div class="gram-page" data-gram-page="docs" hidden>
+        <div class="tabs" id="docTabs" role="tablist"></div>
+        <div id="docTitle" class="doc-title"></div>
+        <pre id="docBody" class="doc-body"></pre>
+      </div>
+    </section>
+
+    <section class="panel view" data-view="api" id="api">
+      <h2>🔌 API của project</h2>
+      <ul class="info">
+        <li><code>GET /api/vocab?level=1|2|3|4|all&amp;q=&amp;limit=&amp;offset=</code> — từ vựng HSK 1–4 (1978 từ, mã HSK1-001…: HSK1 302 · HSK2 200 · HSK3 491 · HSK4 985).</li>
+        <li><code>GET /api/vocab/levels</code> — số lượng từ từng cấp độ.</li>
+        <li><code>GET /api/vocab/:char</code> — pinyin + nghĩa Việt của 1 chữ + các từ HSK chứa nó.</li>
+        <li><code>GET /api/radicals?q=&amp;strokes=&amp;common=1</code> — 214 bộ thủ Khang Hy (tìm theo tên, nghĩa Việt, pinyin, số nét; <code>common=1</code> lấy 50 bộ thông dụng — 50 bộ này có thêm <code>name</code> "bộ X" + <code>emoji</code> minh họa).</li>
+        <li><code>GET /api/radicals/:id</code> — 1 bộ thủ theo số thứ tự 1–214.</li>
+        <li><code>GET /api/grammar?level=hsk1…hsk79|all&amp;q=&amp;limit=&amp;offset=</code> — 593 điểm ngữ pháp HSK 3.0 (bản 2025) kèm nghĩa Việt từng phần.</li>
+        <li><code>GET /api/grammar/levels</code> — số điểm ngữ pháp mỗi cấp.</li>
+        <li><code>GET /api/grammar/docs</code> — tài liệu ngữ pháp tiếng Việt từng cấp (nguồn <code>public/static/Vietnam</code>).</li>
+        <li><code>GET /api/pronunciation</code> — 21 thanh mẫu (+y, w), 36 vận mẫu (kèm file đọc mẫu thật), 4 thanh điệu + khinh thanh.</li>
+        <li><code>GET /api/guide</code> — tổng quan HSK 2.0 vs 3.0 (chuẩn, kỹ năng, bảng từ vựng, lưu ý, lộ trình HSK3) cho trang Dashboard.</li>
+        <li><code>GET /api/courses</code> — danh mục video bài giảng theo cấp (quét <code>public/static/HSK{N}/*.mp4</code>).</li>
+        <li><code>GET /api/notes?lesson=HSK1/HSK1-B1</code> — ghi chú của 1 bài (không có <code>lesson</code> → toàn bộ ghi chú của tài khoản).</li>
+        <li><code>POST /api/notes</code> — lưu ghi chú <code>{ lesson, content }</code> (đăng nhập thì lưu riêng theo tài khoản).</li>
+        <li><code>DELETE /api/notes?lesson=…</code> — xóa ghi chú của 1 bài.</li>
+        <li><code>GET /api/characters/:char</code> — strokes + medians (proxy MakeMeAHanzi, có cache RAM).</li>
+        <li><code>GET /api/characters/:char/strokes</code> — số nét + strokes.</li>
+        <li><code>GET /api/progress</code> / <code>POST /api/progress</code> — tiến độ theo tài khoản (kèm token) hoặc khách.</li>
+        <li><code>POST /api/auth/register</code> / <code>POST /api/auth/login</code> — tạo tài khoản / đăng nhập, trả token.</li>
+        <li><code>GET /api/auth/me</code> / <code>POST /api/auth/logout</code> — kiểm tra / thoát phiên.</li>
+        <li><code>POST /api/auth/change-password</code> — đổi mật khẩu (cần đăng nhập).</li>
+        <li><code>DELETE /api/progress</code> — xóa toàn bộ tiến độ của user hiện tại.</li>
+        <li><code>GET /api/health</code> — kiểm tra server.</li>
+      </ul>
+      <h2>ℹ️ Nguồn dữ liệu</h2>
+      <ul class="info">
+        <li><b>Danh mục từ HSK 3.0:</b> OCR từ PDF chính thức của Bộ Giáo dục TQ (qua <code>andycburke/HSK-3.0-Word-List</code>).</li>
+        <li><b>Pinyin + nghĩa Anh:</b> CC-CEDICT (qua <code>jelleverheyen/hsk-vocabulary</code>).</li>
+        <li><b>Nghĩa Việt:</b> biên soạn thủ công trong <code>src/vocab/vi.data.ts</code> — đóng góp thêm rất hoan nghênh!</li>
+        <li><b>Nét vẽ:</b> <b>graphics.txt</b> của MakeMeAHanzi (SVG path + <b>medians</b>), server proxy bản convert sẵn <code>hanzi-writer-data/你.json</code> trên jsDelivr rồi cache — frontend gọi <code>/api/characters/你</code>. Giấy phép data: Arphic Public License.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

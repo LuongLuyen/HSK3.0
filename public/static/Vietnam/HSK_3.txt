@@ -1,0 +1,182 @@
+新版HSK考试大纲 · 语法 — HSK 3
+========================================
+1. Hình vị (语素)
+  1.1 Tiền tố (前缀)
+    - 老— (già, quen — tiền tố thân mật, VD 老师)
+  1.2 Hậu tố (后缀)
+    - —家 (nhà, giới — VD 画家) 、—子 (hậu tố danh từ, VD 儿子) 、—员 (viên, người — VD 服务员)
+
+2. Từ loại (词类)
+  2.1 Danh từ (名词)
+    2.1.1 Danh từ chỉ phương vị (方位名词)
+      - 东 (đông) 、南 (nam) 、西 (tây) 、北 (bắc) 、北方 (phương bắc) 、东方 (phương đông) 、南方 (phương nam) 、西方 (phương tây) 、中间 (ở giữa)
+  2.2 Động từ (动词)
+    2.2.1 Động từ năng nguyện (能愿动词)
+      - 需要 (cần) 、该 (nên) 、应该 (nên, phải) 、愿意 (sẵn lòng, bằng lòng) 、得 (phải — bắt buộc)
+    2.2.2 Từ ly hợp (离合词)
+      - Động-tân：放假 (nghỉ lễ, nghỉ học) 、见面 (gặp mặt) 、结婚 (kết hôn) 、洗澡 (tắm)
+      - Động-bổ：离开 (rời khỏi) 、完成 (hoàn thành) 、分开 (chia tách, rời nhau)
+  2.3 Đại từ (代词)
+    2.3.1 Đại từ nghi vấn (疑问代词)
+      - 怎样 (như thế nào)
+      - Cách dùng phi nghi vấn của đại từ nghi vấn：（1）phiếm chỉ：①đại từ nghi vấn+都……②đại từ nghi vấn+đại từ nghi vấn
+      - （2）bất định chỉ
+    2.3.2 Đại từ nhân xưng (人称代词)
+      - 别人 (người khác) 、咱们 (chúng ta — gồm cả người nghe)
+    2.3.3 Đại từ chỉ thị (指示代词)
+      - 别的 (cái khác) 、其他 (khác, còn lại)
+  2.4 Lượng từ (量词)
+    2.4.1 Danh lượng từ (名量词)
+      - （1）Chuyên dụng：把 (cái — vật có cán) 、双 (đôi) 、张 (tờ, tấm) 、种 (loại) 、层 (tầng) 、封 (bức — thư) 、页 (trang) 、辆 (chiếc — xe) 、节 (tiết — tiết học) 、所 (sở, ngôi — trường/viện) 、班 (lớp, chuyến) 、段 (đoạn) 、头 (con — gia súc) 、句 (câu) 、公斤 (ki-lô-gam) 、斤 (cân — 0.5kg) 、角 (hào) 、毛 (hào — khẩu ngữ) 、刻 (khắc — 15 phút) 、米 (mét)
+      - （2）Mượn：碗 (bát/tô) 、盘 (đĩa)
+    2.4.2 Động lượng từ (动量词)
+      - 口 (ngụm) 、回 (lần, hồi) 、遍 (lượt — từ đầu đến cuối) 、声 (tiếng)
+    2.4.3 Lượng từ láy (量词重叠)
+      - 个个 (từng cái một) 、张张 (từng tờ một)
+  2.5 Phó từ (副词)
+    2.5.1 Mức độ (程度副词)
+      - 比较 (tương đối) 、还3 (còn, khá) 、更 (càng) 、特别 (đặc biệt) 、挺 (khá, rất) 、有些 (hơi, có phần) 、越 (càng) 、极 (cực kỳ)
+    2.5.2 Phạm vi (范围副词)
+      - 就3 (chỉ, chỉ có) 、一块儿 (cùng nhau) 、一共 (tổng cộng) 、只 (chỉ) 、到处 (khắp nơi) 、只是 (chỉ là)
+    2.5.3 Thời gian (时间副词)
+      - 才1 (mới — muộn) 、马上 (ngay lập tức) 、先 (trước) 、一会儿 (một lát) 、刚 (vừa mới) 、刚刚 (vừa mới) 、一直 (luôn, mãi)
+    2.5.4 Tần suất (频率副词)
+      - 总 (luôn) 、总是 (luôn luôn) 、又 (lại — việc đã xảy ra) 、常常 (thường thường)
+    2.5.5 Liên kết (关联副词)
+      - 一边 (vừa... vừa)
+    2.5.6 Tình thái (情态副词)
+      - 大概 (đại khái, có lẽ) 、必须 (nhất định phải) 、差不多 (gần như, xấp xỉ) 、一定 (nhất định) 、好像 (hình như) 、几乎 (hầu như)
+    2.5.7 Ngữ khí (语气副词)
+      - 当然 (đương nhiên) 、其实 (thực ra) 、终于 (cuối cùng) 、才2 (mới — nhấn mạnh) 、才3 (mới) 、就4 (chính là, liền)
+    2.5.8 Phủ định (否定副词)
+      - 不必 (không cần phải) 、不用 (không cần)
+  2.6 Giới từ (介词)
+    2.6.1 Dẫn ra đối tượng
+      - 为1 (vì, cho) 、向1 (hướng về, đối với) 、关于 (về, liên quan đến)
+    2.6.2 Dẫn ra phương hướng, lộ trình
+      - 向2 (hướng về)
+    2.6.3 Dẫn ra mục đích, nguyên nhân
+      - 为了 (để, vì) 、为2 (vì)
+    2.6.4 Dẫn ra chủ thể/khách thể hành động
+      - 把 (đem — dùng trong câu chữ 把) 、被 (bị — bị động)
+    2.6.5 Dẫn ra căn cứ
+      - 根据 (căn cứ vào, dựa vào)
+  2.7 Liên từ (连词)
+    2.7.1 Nối từ hoặc cụm từ
+      - 或 (hoặc) 、或者 (hoặc là)
+    2.7.2 Nối phân câu hoặc câu
+      - 只有 (chỉ có) 、只要 (chỉ cần) 、不但 (không những) 、而且 (mà còn) 、如果 (nếu như) 、可1 (nhưng) 、可是 (nhưng mà) 、然后 (sau đó)
+  2.8 Trợ từ (助词)
+    2.8.1 Khác (其他助词)
+      - 的话 (nếu như — kết hợp với 如果/要是)
+
+3. Cụm từ (短语)
+  3.1 Kết cấu (结构类型)
+    3.1.1 Khác (其他结构类型)
+      - Cụm đồng vị
+      - Cụm động-bổ 2
+      - Trùng điệp số lượng：số từ+lượng từ+số từ+lượng từ
+  3.2 Cụm cố định (固定短语)
+    3.2.1 Bốn chữ (四字格)
+      - 不A不B (không A không B — mẫu bốn chữ)
+    3.2.2 Khác (其他)
+      - 不一会儿 (không bao lâu)
+      - 看来 (xem ra, có vẻ)
+      - 在……看来 (theo cách nhìn của...)
+      - 越来越 (ngày càng)
+      - 看起来 (trông có vẻ)
+      - 看上去 (trông có vẻ)
+      - 一般来说 (nói chung)
+      - 不怎么样 (không hay lắm, tầm thường)
+
+4. Cấu trúc cố định (固定格式)
+  4.1
+    - 除了……（以外），……还/也/都…… (ngoài... ra, còn/cũng/đều...)
+    - 从……起 (bắt đầu từ...)
+    - 对……来说 (đối với... mà nói)
+    - 一……也/都+不/没…… (một... cũng không...)
+    - 一点儿也不 (một chút cũng không)
+    - 越……越…… (càng... càng...)
+    - （在）……以前/以后/前/后 (trước/sau khi...)
+    - X什么（啊） (X gì mà...)
+    - 该……了 (nên... rồi)
+    - 在……上/下/中 (ở trên/dưới/trong...)
+
+5. Thành phần câu (句子成分)
+  5.1 Chủ ngữ (主语)
+    - Động từ/cụm động từ, tính từ/cụm tính từ làm chủ ngữ
+    - Cụm chủ-vị làm chủ ngữ
+  5.2 Định ngữ (定语)
+    - Định ngữ nhiều lớp
+  5.3 Bổ ngữ (补语)
+    5.3.1 Bổ ngữ kết quả 2 (结果补语2)
+      - Động từ+到 (đến) /住 (giữ được) /走 (đi) /上 (lên, đạt được)
+    5.3.2 Bổ ngữ xu hướng 2 (趋向补语2)
+      - Nghĩa mở rộng của bổ ngữ xu hướng：（1）biểu thị kết quả：động từ+出/起/下
+      - （2）biểu thị bắt đầu động tác：động từ+上/起来
+      - （3）biểu thị động tác tiếp diễn：động từ+下去/下来
+    5.3.3 Bổ ngữ khả năng 1 (可能补语1)
+      - Động từ+得/不+động từ/tính từ
+    5.3.4 Bổ ngữ mức độ 1 (程度补语1)
+      - （1）tính từ+得很 (rất...)
+      - （2）tính từ/động từ+极了 (cực kỳ) /坏了 (quá, tệ quá — nhấn mạnh)
+    5.3.5 Bổ ngữ số lượng 3 (数量补语3)
+      - Biểu thị khoảng cách thời gian từ khi kết thúc động tác đến một thời điểm
+
+6. Các loại câu (句子的类型)
+  6.1 Loại câu (句类)
+    6.1.1 Câu nghi vấn (疑问句)
+      - Câu nghi vấn đặc chỉ "怎样+động từ"
+    6.1.2 Câu phản vấn 1 (反问句1)
+      - Dùng câu phản vấn để nhấn mạnh：不是……吗？ (chẳng phải là... sao?)
+  6.2 Câu đặc biệt (特殊句型)
+    6.2.1 Câu chữ "把" 1 ("把"字句1)
+      - （1）chủ ngữ+把+tân ngữ+động từ+在/到+nơi chốn
+      - （2）chủ ngữ+把+tân ngữ1+động từ（+给）+tân ngữ2
+      - （3）chủ ngữ+把+tân ngữ+động từ+bổ ngữ kết quả/xu hướng/trạng thái
+    6.2.2 Câu bị động 1 (被动句1)
+      - （1）chủ ngữ+被+tân ngữ+động từ+thành phần khác
+      - （2）chủ ngữ+被+động từ+thành phần khác
+    6.2.3 Câu liên động 2 (连动句2)
+      - "着" biểu thị động tác đi kèm：động từ1+着+động từ2
+    6.2.4 Câu so sánh 2 (比较句2)
+      - （1）A比B+更/还+tính từ
+      - （2）A跟B一样 (A giống B)
+      - （3）A跟B一样+tính từ
+      - （4）A不比B+tính từ (A không hơn B)
+      - （5）A比B+多/少/早/晚+động từ+cụm số lượng
+    6.2.5 Câu tồn hiện 3 (存现句3)
+      - （1）biểu thị xuất hiện：nơi chốn+động từ+bổ ngữ xu hướng/kết quả+动态(了)+cụm số lượng+người/vật
+      - （2）biểu thị biến mất：nơi chốn+động từ+bổ ngữ kết quả+动态(了)+cụm số lượng+người/vật
+    6.2.6 Câu "是……的" 2 ("是……的"句2)
+      - Nhấn mạnh quan điểm, thái độ của người nói
+    6.2.7 Câu trùng động (重动句)
+      - Chủ ngữ+động từ+tân ngữ+động từ+bổ ngữ
+  6.3 Câu phức (复句)
+    6.3.1 Nối tiếp (承接复句)
+      - 先……，再/然后…… (trước tiên... rồi/sau đó...)
+    6.3.2 Lựa chọn (选择复句)
+      - 或者……，或者…… (hoặc là... hoặc là...)
+    6.3.3 Song song (并列复句)
+      - 一会儿……，一会儿…… (lúc thì... lúc thì...)
+      - 又……，又…… (vừa... vừa...)
+      - 一边……，一边…… (vừa... vừa...)
+    6.3.4 Tăng tiến (递进复句)
+      - 不但……，而且…… (không những... mà còn...)
+    6.3.5 Chuyển ý (转折复句)
+      - 虽然……，可是…… (mặc dù... nhưng...)
+    6.3.6 Giả thiết (假设复句)
+      - 如果……，就…… (nếu... thì...)
+      - ……的话，就…… (nếu... thì...)
+    6.3.7 Điều kiện (条件复句)
+      - 只有……，才…… (chỉ có... mới...)
+      - 只要……，就…… (chỉ cần... thì...)
+    6.3.8 Mục đích (目的复句)
+      - 为了……，…… (để...)
+    6.3.9 Rút gọn (紧缩复句)
+      - ……了……（就）…… (vừa... (thì) đã...)
+
+7. Cách diễn đạt đặc biệt (特殊表达法)
+  7.1 Cách biểu thị số (数的表达法)
+    - Cách biểu thị số ước lượng 2：（1）dùng "大概" (đại khái) biểu thị số ước lượng
+    - （2）số từ liền kề dùng chung biểu thị số ước lượng

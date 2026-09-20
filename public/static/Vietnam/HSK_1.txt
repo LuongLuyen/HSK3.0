@@ -1,0 +1,149 @@
+新版HSK考试大纲 · 语法 — HSK 1
+========================================
+1. Hình vị (语素)
+  1.1 Tiền tố (前缀)
+    - 小— (nhỏ, tiền tố thân mật) 、第— (thứ — số thứ tự)
+  1.2 Hậu tố (后缀)
+    - —们 (số nhiều — người) 、—边 (bên, phía)
+
+2. Từ loại (词类)
+  2.1 Danh từ (名词)
+    2.1.1 Danh từ chỉ phương vị (方位名词)
+      - 上 (trên) 、下 (dưới) 、里 (trong) 、外 (ngoài) 、前 (trước) 、后 (sau)
+  2.2 Động từ (动词)
+    2.2.1 Động từ năng nguyện (能愿动词)
+      - 会 (biết, sẽ) 、能 (có thể)
+      - 想 (muốn, nghĩ) 、要 (muốn, cần)
+      - 可以 (có thể, được phép)
+    2.2.2 Từ ly hợp (离合词)
+      - 看病 (khám bệnh) 、睡觉 (ngủ) 、说话 (nói chuyện) 、上课 (vào học) 、下课 (tan học) 、上班 (đi làm) 、下班 (tan làm) 、生病 (bị bệnh)
+  2.3 Đại từ (代词)
+    2.3.1 Đại từ nghi vấn (疑问代词)
+      - 多 (bao nhiêu — hỏi mức độ) 、多少 (bao nhiêu) 、几 (mấy) 、哪 (nào) 、哪儿 (đâu) 、哪里 (đâu) 、哪些 (những cái nào) 、什么 (gì) 、谁 (ai) 、怎么 (thế nào, sao) 、怎么样 (thế nào, ra sao)
+    2.3.2 Đại từ nhân xưng (人称代词)
+      - 我 (tôi) 、你 (bạn) 、您 (ngài — kính ngữ) 、他 (anh ấy) 、她 (cô ấy) 、我们 (chúng tôi) 、你们 (các bạn) 、他们 (họ — nam) 、她们 (họ — nữ) 、它 (nó) 、它们 (chúng nó) 、大家 (mọi người)
+    2.3.3 Đại từ chỉ thị (指示代词)
+      - 这 (này) 、那 (kia, đó) 、这儿 (đây) 、那儿 (kia, đó) 、这里 (đây) 、那里 (kia, đó) 、这些 (những cái này) 、那些 (những cái kia) 、有的 (có cái) 、这个 (cái này) 、那个 (cái kia) 、有些 (một số)
+  2.4 Số từ (数词)
+    - 一 (một) 、二/两 (hai) 、三 (ba) 、四 (bốn) 、五 (năm) 、六 (sáu) 、七 (bảy) 、八 (tám) 、九 (chín) 、零 (không, số 0) 、十 (mười) 、百 (trăm) 、半 (nửa) 、千 (nghìn)
+  2.5 Lượng từ (量词)
+    2.5.1 Danh lượng từ (名量词)
+      - （1）Chuyên dụng：本 (quyển) 、个 (cái) 、家 (nhà, tiệm) 、口 (miệng — người trong nhà) 、块 (đồng, miếng) 、件 (chiếc, việc) 、只 (con — động vật) 、元 (đồng, nguyên — tiền)
+      - （2）Mượn：杯 (cốc, ly)
+    2.5.2 Thời lượng từ (时量词)
+      - 日 (ngày) 、号 (ngày, mồng) 、岁 (tuổi) 、点 (giờ) 、分 (phút) 、年 (năm) 、天 (ngày)
+  2.6 Phó từ (副词)
+    2.6.1 Mức độ (程度副词)
+      - 非常 (rất) 、很 (rất) 、太 (quá) 、真 (thật, quả thật) 、有（一）点儿 (hơi, có chút)
+    2.6.2 Phạm vi (范围副词)
+      - 都1 (đều)
+    2.6.3 Thời gian (时间副词)
+      - 在 (đang) 、正在 (đang)
+    2.6.4 Tần suất (频率副词)
+      - 再1 (lại, nữa — việc chưa xảy ra)
+    2.6.5 Liên kết (关联副词)
+      - 还1 (còn, vẫn) 、也 (cũng)
+    2.6.6 Phủ định (否定副词)
+      - 不 (không) 、没（有） (chưa/không có) 、不要 (đừng)
+  2.7 Giới từ (介词)
+    2.7.1 Dẫn ra thời gian, nơi chốn
+      - 在 (ở, tại)
+    2.7.2 Dẫn ra đối tượng
+      - 和1 (và, với) 、对 (đối với)
+  2.8 Liên từ (连词)
+    2.8.1 Nối từ ngữ hoặc cụm từ
+      - 和2 (và)
+  2.9 Trợ từ (助词)
+    2.9.1 Kết cấu (结构助词)
+      - 的1 (trợ từ sở hữu/định ngữ "của")
+    2.9.2 Động thái (动态助词)
+      - 了1 (trợ từ hoàn thành "rồi")
+    2.9.3 Ngữ khí (语气助词)
+      - 吧1 (nhé, đi — đề nghị) 、了2 (rồi — biến hóa) 、吗 (à, không — nghi vấn) 、呢1 (nhỉ, thì sao) 、呢2 (đang... — tiếp diễn) 、呢3 (nhỉ — nghi vấn nhẹ)
+  2.10 Thán từ (叹词)
+    - 喂 (này, alô)
+
+3. Cụm từ (短语)
+  3.1 Kết cấu (结构类型)
+    3.1.1 Cơ bản (基本结构类型)
+      - （1）Cụm liên hợp
+      - （2）Cụm chính phụ
+      - （3）Cụm động-tân
+      - （4）Cụm chủ-vị
+    3.1.2 Khác (其他结构类型)
+      - （1）Cụm số lượng
+      - （2）Cụm giới-tân
+      - （3）Cụm phương vị
+
+4. Thành phần câu (句子成分)
+  4.1 Chủ ngữ (主语)
+    - Danh từ, đại từ hoặc cụm danh từ làm chủ ngữ
+  4.2 Vị ngữ (谓语)
+    - Danh từ, đại từ, số từ hoặc cụm số lượng làm vị ngữ
+    - Động từ/cụm động từ, tính từ/cụm tính từ làm vị ngữ
+  4.3 Tân ngữ (宾语)
+    - Danh từ, đại từ hoặc cụm danh từ làm tân ngữ
+  4.4 Định ngữ (定语)
+    - Từ ngữ danh từ tính, cụm tính từ, cụm số lượng làm định ngữ
+  4.5 Trạng ngữ (状语)
+    - Phó từ, tính từ làm trạng ngữ chỉ thời gian, nơi chốn
+  4.6 Bổ ngữ (补语)
+    4.6.1 Bổ ngữ số lượng 1 (数量补语1)
+      - Động từ + bổ ngữ động lượng
+
+5. Các loại câu (句子的类型)
+  5.1 Câu hình (句型)
+    5.1.1 Câu đơn (单句)
+      - Câu chủ-vị 1：câu vị ngữ động từ
+      - Câu chủ-vị 2：câu vị ngữ tính từ
+      - Câu chủ-vị 3：câu vị ngữ danh từ
+      - Câu không có kết cấu chủ-vị
+  5.2 Loại câu (句类)
+    5.2.1 Câu trần thuật (陈述句)
+      -
+    5.2.2 Câu nghi vấn (疑问句)
+      - （1）Câu hỏi có/không
+      - （2）Câu hỏi đặc chỉ
+      - （3）Câu hỏi chính phản
+    5.2.3 Câu cầu khiến (祈使句)
+      -
+    5.2.4 Câu cảm thán (感叹句)
+      -
+  5.3 Câu đặc biệt (特殊句型)
+    5.3.1 Câu chữ "是" 1 ("是"字句1)
+      - Biểu thị đồng nhất hoặc thuộc loại
+    5.3.2 Câu chữ "有" 1 ("有"字句1)
+      - Biểu thị sở hữu
+    5.3.3 Câu tồn hiện 1 (存现句1)
+      - （1）Nơi chốn+是+danh từ
+      - （2）Nơi chốn+有+cụm số lượng+danh từ
+    5.3.4 Câu liên động 1 (连动句1)
+      - （1）Hai động tác xảy ra trước sau, động tác sau là mục đích của động tác trước
+      - （2）Động tác trước là phương thức của động tác sau
+    5.3.5 Câu song tân ngữ 1 (双宾语句1)
+      - Chủ ngữ+động từ+tân ngữ1+tân ngữ2
+  5.4 Câu phức (复句)
+    5.4.1 Câu phức không dùng từ liên kết
+      -
+    5.4.2 Song song (并列复句)
+      - ……，也……
+      - ……，还……
+
+6. Thái của động tác (动作的态)
+  6.1
+    6.1.1 Thể hoàn thành (完成态)
+      - Dùng trợ từ động thái "了1" để biểu thị
+    6.1.2 Thể biến hóa (变化态)
+      - Dùng trợ từ động thái "了2" để biểu thị
+    6.1.3 Thể tiếp diễn (进行态)
+      - （1）……在/正在+động từ
+      - （2）……在/正在+động từ……+呢
+      - （3）……呢
+
+7. Cách diễn đạt đặc biệt (特殊表达法)
+  7.1 Cách biểu thị số (数的表达法)
+    - Cách biểu thị số tiền
+    - Cách biểu thị số thứ tự 1：第+số từ
+  7.2 Cách biểu thị thời gian (时间表示法)
+    - （1）Cách biểu thị năm, tháng, ngày, thứ trong tuần
+    - （2）Cách biểu thị giờ
